@@ -100,6 +100,9 @@ https://stackoverflow.com/questions/41123659/django-ipv4-only-for-genericipaddre
 * Zona horaria: 
 https://docs.djangoproject.com/zh-hans/2.1/_modules/pytz/
 
+* Commands ssh:
+https://documentation.codeship.com/basic/continuous-deployment/deployment-with-ftp-sftp-scp/#run-commands-on-a-remote-server-via-ssh
+
 * Deploy:
 https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16-04#install-the-packages-from-the-ubuntu-repositories
 
