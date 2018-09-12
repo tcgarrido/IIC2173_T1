@@ -1,4 +1,4 @@
-##Comandos iniciales y pasos relevantes
+**Comandos iniciales y pasos relevantes**
 
 	#Instalación de paquetes
 	pip3 install virtualenv
@@ -43,9 +43,9 @@
 	python3 manage.py runserver
 
 
-##Referencias principales
+**Referencias principales**
 
-* [Django Tutorials by Max Goodridge] (https://www.youtube.com/playlist?list=PLw02n0FEB3E3VSHjyYMcFadtQORvl1Ssj)
+* [Django Tutorials by Max Goodridge] (#https://www.youtube.com/playlist?list=PLw02n0FEB3E3VSHjyYMcFadtQORvl1Ssj)
 
 * [Creating user, database and adding access on PostgreSQL] (
 https//medium.com/coding-blocks/creating-user-database-and-adding-access-on-postgresql-8bfcd2f4a91e)
