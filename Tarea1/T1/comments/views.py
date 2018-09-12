@@ -15,7 +15,7 @@ def home(request):
         if form.is_valid():
             data = form.cleaned_data['Your_Comment']
             date = timezone.now()
-            form = new(data,date)
+            form = new(data,date, request.META.get('REMOTE_ADDR')
     else:
         form = CommentsForm()
 
@@ -26,7 +26,7 @@ def home(request):
     return HttpResponse(template.render(context, request))
 
 
-def new(content, date):
-    comment = CreateComment(content=content, date=date)
+def new(content, date, ip):
+    comment = CreateComment(content=content, date=date, server_IP=ip)
     comment.save()
     return CommentsForm()
