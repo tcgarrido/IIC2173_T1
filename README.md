@@ -41,7 +41,19 @@
 	python manage.py migrate
 	python3 manage.py createsuperuser
 	python3 manage.py runserver
-
+	
+	
+	#Deploy
+	sudo apt install python3
+	sudo python3 -m http.server 80
+	charette17.ing.puc.cl #funciona
+	git clone https://github.com/tcgarrido/IIC2173_T1.git Tarea1
+	sudo apt install python3-pip
+	sudo python3 -m pip install django
+	sudo python3 manage.py runserver 80 #error
+	sudo python3 -m pip install -r requirements.txt 
+	
+	
 
 **Referencias principales**
 
@@ -54,6 +66,10 @@ https://medium.com/coding-blocks/creating-user-database-and-adding-access-on-pos
 * Migraciones: 
 https://docs.djangoproject.com/en/1.8/intro/tutorial01/
 
+* Forms: https://docs.djangoproject.com/en/2.1/topics/forms/
+
+* Forms 2: https://tutorial.djangogirls.org/es/django_forms/
+
 * Views: 
 https://docs.djangoproject.com/es/2.1/intro/tutorial03/
 
@@ -62,6 +78,9 @@ https://stackoverflow.com/questions/5823580/django-form-resubmitted-upon-refresh
 
 * Modelo de comentario: 
 https://tutorial-extensions.djangogirls.org/en/homework_create_more_models/
+
+* Adduser server:
+https://ubuntuforums.org/showthread.php?t=2130483
 
 * Create postgres db: 
 https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your-django-application-on-ubuntu-14-04
@@ -72,10 +91,18 @@ https://stackoverflow.com/questions/3429878/automatic-creation-date-for-django-m
 * Get user IP: 
 https://stackoverflow.com/questions/48277696/get-current-server-ip-or-domain-in-django
 
+* Get user IP address: 
+https://stackoverflow.com/questions/23463599/how-to-store-ip-address-in-the-database-and-django-admin/23465544
+
+* GenericIPAddressField: 
+https://stackoverflow.com/questions/41123659/django-ipv4-only-for-genericipaddressfield
+
 * Zona horaria: 
 https://docs.djangoproject.com/zh-hans/2.1/_modules/pytz/
+
+* Deploy:
+https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16-04#install-the-packages-from-the-ubuntu-repositories
 
 **Vista previa**
 
 ![alt text](https://raw.githubusercontent.com/tcgarrido/IIC2173_T1/master/image.png)
-
