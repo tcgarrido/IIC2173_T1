@@ -15,7 +15,7 @@ def home(request):
         if form.is_valid():
             data = form.cleaned_data['Your_Comment']
             date = timezone.now()
-            form = new(data,date, request.META.get('REMOTE_ADDR')
+            form = new(data,date, request.META.get('REMOTE_ADDR'))
     else:
         form = CommentsForm()
 
