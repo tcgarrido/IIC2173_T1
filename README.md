@@ -75,3 +75,7 @@ https://stackoverflow.com/questions/48277696/get-current-server-ip-or-domain-in-
 * Zona horaria: 
 https://docs.djangoproject.com/zh-hans/2.1/_modules/pytz/
 
+**Vista previa**
+
+![alt text](https://raw.githubusercontent.com/tcgarrido/IIC2173_T1/master/image.png)
+
