@@ -26,7 +26,7 @@ SECRET_KEY = 'yt#(y(c_&qikh@m!9*54&q&@jeu1gj4r4w(v(73jo_*&(-e32u'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0/0']
+ALLOWED_HOSTS = ['0.0.0.0/0', '146.155.13.189', 'charette17.ing.puc.cl']
 
 
 # Application definition
