@@ -1,11 +1,10 @@
 from django.db import models
-import socket
 
 # Create your models here.
 class CreateComment(models.Model):
         date = models.DateTimeField(auto_now_add=True)
         content = models.CharField(max_length=200)
-        server_IP = socket.gethostbyname(socket.gethostname())
+        server_IP = models.GenericIPAddressField(protocol='IPv4')
 
         def __str__(self):
             return self.content
